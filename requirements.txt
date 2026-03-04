@@ -1,0 +1,6 @@
+torch>=1.12
+torchvision>=0.13
+Pillow>=9.0
+numpy>=1.21
+openai>=1.0
+python-dotenv>=1.0
