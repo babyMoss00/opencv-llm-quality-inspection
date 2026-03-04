@@ -1,0 +1,41 @@
+# === API Keys & Secrets ===
+.env
+*.env
+.env.*
+
+# === Factory Images (NDA Protected) ===
+# Do NOT upload real production line photos
+IMG_*.jpg
+IMG_*.jpeg
+IMG_*.png
+data/raw/
+
+# === Model Outputs ===
+feature_bank.json
+*.pth
+*.pt
+*.onnx
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Generated Reports with Local Paths ===
+report_local.html
